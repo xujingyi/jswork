@@ -41,7 +41,7 @@ app.get('/ajax',function (req,res){
     res.json(result)
 })
 
-app.listen(8080,()   console.log('node express 服务器已启动，监听端口：8080'))
+app.listen(8080,() => console.log('node express 服务器已启动，监听端口：8080'))
 
 const openDefauitBrowser = function (url) {
     var exec = require('child_process').exec;
